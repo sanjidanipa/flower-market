@@ -1,0 +1,112 @@
+
+.inter-font {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal;
+}
+
+.noto-serif-font {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+
+}
+
+.container{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.navber{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    height: 100px;
+    width: 100px;
+  
+}
+.link{
+    margin-top: 40px;
+
+}
+
+.link a{
+    text-decoration: none;
+    color: #8987A1;
+    padding-left: 49px;
+}
+#home{
+    font-weight: 700;
+    color: #252432;
+}
+#cart{
+    color: #000000;
+}
+.banner
+{       margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+}
+.flower-description h1 ,.plant-title {
+    font-size: 4.05rem;
+    font-weight: 700;
+}
+
+#fresh-flowers , #our{
+    color: #E95A08;
+}
+.flower-description p , .plant-description{
+    font-size: 1.375rem;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.plants{
+    text-align: center;
+    margin-top: 120px;
+}
+
+
+.plants-cart{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+}
+
+.plant-name{
+    text-align: center;
+    margin-top: 30px;
+}
+ .plant-name p{
+    font-weight: 500;
+    font-size: 1.375rem;
+    color: rgb(17, 17, 17);
+
+ }
+.plant-name h5{
+      font-weight: 700;
+    font-size: 1.375rem;
+    color: rgb(17, 17, 17);
+    margin-top: 10px;
+}
+
+.cart-btn{
+    font-weight: 600;
+    background: rgb(233, 90, 8);
+    
+    color: white;
+    border: none;
+
+}
+
+@media screen and (max-width:576px) {
+    .banner{
+        flex-direction: column-reverse;
+    }
+    .plants-cart{
+        grid-template-columns: repeat(2,1fr);
+    }
+}
