@@ -56,10 +56,11 @@
     font-weight: 700;
 }
 
-#fresh-flowers , #our{
+#fresh-flowers , #our , #latest{
     color: #E95A08;
 }
-.flower-description p , .plant-description ,#lover-list{
+.flower-description p , .plant-description ,#lover-list ,
+.deals-description{
     font-size: 1.375rem;
     color: rgba(0, 0, 0, 0.5);
 }
@@ -96,7 +97,7 @@
 .cart-btn{
     font-weight: 600;
     background: rgb(233, 90, 8);
-    
+    padding: 26px 50px;
     color: white;
     border: none;
 
@@ -108,9 +109,36 @@
     gap: 60px;   
     margin-top: 210px;
 }
-.plants-lover-title{
+.plants-lover-title , .deals h1{
     font-size: 3.125rem;
     font-weight: 700
+}
+.flower-lover-img{
+    position: relative;
+}
+
+.badge{
+    position: absolute;
+     left: 350px;
+     top: -150px;
+    height: 286px;
+    width: 286px;
+}
+ 
+    
+.deals{
+    text-align: center;
+    margin-top: 120px;
+}
+
+.join{
+    margin-top: 120px;
+    text-align: center;
+    background-image: url("assets/news-letter-bg.png");
+     background-repeat: no-repeat;
+    height: 533px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 
