@@ -140,7 +140,7 @@
     height: 533px;
     padding-top: 100px;
      margin-top: 120px;
-    
+     
    
 }
 
@@ -178,16 +178,14 @@
    
 }
 
- .link-column1 a , .link-column2 a{
+ .link-column a{
      color: rgb(107, 114, 128); 
     text-decoration: none;
     display: flex;
     justify-content: left;
     padding-bottom: 30px;
  }
-.link-column2 a{
-    padding-bottom: 20px;
-}
+
  .social-media img{
     padding: 10px;
     padding-top: 0%;
