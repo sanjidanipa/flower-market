@@ -23,12 +23,13 @@
     justify-content: space-between;
 }
 .logo img{
-    height: 100px;
-    width: 100px;
+    height: 100%;
+    width: 100%;
   
 }
 .link{
     margin-top: 40px;
+    display: block;
 
 }
 
@@ -36,6 +37,7 @@
     text-decoration: none;
     color: #8987A1;
     padding-left: 49px;
+
 }
 #home{
     font-weight: 700;
@@ -120,16 +122,71 @@
 
 .badge{
     position: absolute;
-     left: 350px;
-     top: -150px;
-    height: 286px;
-    width: 286px;
+     left: 380px;
+     top: -115px;
+    height: 255px;
+    width: 255px;
+   
 }
  
     
 .deals{
     text-align: center;
     margin-top: 120px;
+}
+
+/* .flower-offer img{
+   
+    border-radius: 20px;
+}
+.flower-offer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 28px;
+    
+   
+    
+}
+
+.vertical-offer{
+   
+   flex: 33.333%;
+   margin: 25px auto;
+}
+
+.zabo-plant{
+ flex: 66.66%;
+} */
+
+.flower-offer{
+    display: grid;
+    grid-template-columns: 33.33% auto;
+    gap: 28px;
+    margin-top: 120px;
+}
+.vertical-offer{
+    
+}
+.sixty{
+    background-image: url(assets/deal-bloom.png);
+    background-repeat: no-repeat;
+   padding: 65px 48px;
+}
+.thirty{
+    background-image: url(assets/deal-ana.png);
+    background-repeat: no-repeat;
+     padding: 65px 48px;
+}
+.twenty{
+    background-image: url(assets/deal-zabo.png);
+    background-repeat: no-repeat;
+     padding: 200px 48px;
+}
+.sixty , .thirty , .twenty{
+    text-align: center;
+    margin: 0 auto;
+    
 }
 
 .flower-join{
@@ -142,7 +199,8 @@
      margin-top: 120px;
      
    
-}
+} 
+
 
 
 .joining-title{
@@ -194,10 +252,34 @@
 
 
 @media screen and (max-width:576px) {
+
+ 
+ .link a:nth-child(1){
+    display: none;
+    
+ }
+  .link a:nth-child(2){
+    display: none;}
+     .link a:nth-child(3){
+    display: none;}
+    .navber{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 10px;
+    }
+    .logo{
+        width: 25%;
+        padding-top: 10px;
+        
+    }
+
     .banner , .plants-lover{
         flex-direction: column-reverse;
     }
     .plants-cart{
         grid-template-columns: repeat(2,1fr);
     }
+
+
 }
