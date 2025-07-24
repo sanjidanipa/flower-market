@@ -100,6 +100,7 @@
     padding: 26px 50px;
     color: white;
     border: none;
+    width: 100%;
 
 }
 
@@ -139,6 +140,7 @@
     height: 533px;
     width: 100%;
     margin: 0 auto;
+   
 }
 
 
