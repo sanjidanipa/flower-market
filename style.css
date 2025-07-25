@@ -111,8 +111,9 @@
 }
 
 .plants-lover{
-    display: flex;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+
     gap: 65px;   
     margin-top: 210px;
 }
@@ -132,7 +133,9 @@
     width: 255px;
    
 }
- 
+  .nature-img {
+    width: 100%;
+  }
     
 .deals{
     text-align: center;
@@ -306,8 +309,11 @@
             font-weight: 700;
         }
      
-    .banner , .plants-lover{
+    .banner{
         flex-direction: column-reverse;
+    }
+    .plants{
+        margin-top: 60px;
     }
    .plants-cart{
     display: grid;
@@ -342,5 +348,23 @@
     width: 100%;
 
 }
+.plants-lover{
+    margin-top: 40px;
+   display: flex;
+   flex-direction: column;
+}
+.plants-lover-title ,.deals h1{
+    font-size: 24px;
+}
+.lover-list , .deals p{
+    font-size: 14px;
+}
+
+.badge{
+    display: none;
+}
+
+
+
 }
 
