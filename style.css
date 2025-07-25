@@ -212,12 +212,14 @@ a {
   color: white;
   text-decoration: underline;
   font-size: 28px;
+ 
 }
 
 .sixty h1,
 .thirty h1 {
   font-size: 20px;
   font-weight: bold;
+  
 }
 .twenty h1 {
   font-size: 40px;
@@ -435,6 +437,7 @@ a {
     border-radius: 14px;
     width: 300px;
     height: 206px;
+   
   }
 
   .sixty a,
@@ -451,6 +454,7 @@ a {
   .twenty h1 {
     font-size: 20px;
     font-weight: bold;
+    
   }
 
   .flower-join {
